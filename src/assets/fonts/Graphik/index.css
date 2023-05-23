@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Graphik'), url(GraphikThin.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local('Graphik'), url(GraphikExtralight.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Graphik'), url(GraphikLight.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Graphik'), url(GraphikRegular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Graphik'), url(GraphikMedium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Graphik'), url(GraphikSemibold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Graphik'), url(GraphikBold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Graphik'), url(GraphikBlack.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Graphik'), url(GraphikSuper.otf) format('opentype');
+}

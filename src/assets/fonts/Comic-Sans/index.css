@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'ComicSans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('ComicSans'), url(ComicSans.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'ComicSans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('ComicSans'), url(ComicSansBold.ttf) format('truetype');
+}

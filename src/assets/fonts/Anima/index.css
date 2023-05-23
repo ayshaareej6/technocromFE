@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Amina-Black';
+  font-display: swap;
+  src: local('Amina'), url(Amina-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Amina-Medium';
+  font-display: swap;
+  src: local('Amina'), url(Amina-Medium.ttf) format('truetype');
+}

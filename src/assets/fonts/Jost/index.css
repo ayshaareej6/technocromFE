@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Graphik'), url(Jost-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Graphik'), url(Jost-Regular.ttf) format('truetype');
+}
