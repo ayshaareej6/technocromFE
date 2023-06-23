@@ -227,19 +227,22 @@ section {
 
 .dropdown-area {
   position: absolute;
-  left: 0;
+  left: 50%;
   bottom: 0;
   background: #fff;
   border-top: 3px solid var(--default-color);
-  width: 100%;
-  transform: translate(0, 100%);
+  width: auto; 
+  transform: translateX(-50%) translateY(100%);
+  white-space: nowrap;
   box-shadow: 0px 13px 13px rgb(0 0 0 / 20%);
   border-radius: 0 0 6px 6px;
   padding: 30px;
   visibility: hidden;
   opacity: 0;
   transition: all 0.3s;
+  margin-left: 2px;
 }
+
 
 .side-filters-menu .dropdown-area {
   left: 50%;

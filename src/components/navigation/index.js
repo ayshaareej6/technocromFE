@@ -17,6 +17,7 @@ import SearchBar from "../SearchBar";
 
 const Navigation = () => {
   const context = useContext(MainContext);
+  
   const [showMenu, setShowMenu] = useState(false);
 
   const windowWidth = useWindowSize();
@@ -24,6 +25,7 @@ const Navigation = () => {
   const showLoginPopup = (e) => {
     e.preventDefault();
     context.setLoginPopup(true);
+
   };
 
   const showSearchPopup = (e) => {
@@ -175,10 +177,6 @@ const Navigation = () => {
                                           Performance Testing
                                         </Link>
                                       </li>
-                                    </ul>
-                                  </Col>
-                                  <Col md={6}>
-                                    <ul>
                                       <li>
                                         <Link to="./manual-testing">
                                           Manual Testing
@@ -191,6 +189,7 @@ const Navigation = () => {
                                       </li>
                                     </ul>
                                   </Col>
+                                 
                                 </Row>
                               </div>
                             </Col>
@@ -242,10 +241,6 @@ const Navigation = () => {
                                           Business Intelligence
                                         </Link>
                                       </li>
-                                    </ul>
-                                  </Col>
-                                  <Col md={4}>
-                                    <ul>
                                       <li>
                                         <Link to="./banking">Banking</Link>
                                       </li>
